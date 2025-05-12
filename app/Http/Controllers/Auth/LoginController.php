@@ -85,7 +85,7 @@ class LoginController extends Controller
             }
 
             // Default redirect if no specific role is found
-            return redirect()->intended('/home'); 
+            return redirect()->intended('/login'); 
         }
 
         // If authentication fails, redirect back with an error message
